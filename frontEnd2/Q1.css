@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #fca5a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+@media screen and (max-width:575px) {
+    body{
+        background-color: aqua;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  body {
+    background-color: #fde68a;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  body {
+    background-color: #93c5fd;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  body {
+    background-color: #86efac;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: #ba6767;
+  }
+}

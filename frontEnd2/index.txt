@@ -1,0 +1,60 @@
+Responsive Web Design is an approach to web development where a website automatically adjusts its layout
+content, and design based on the screen size, device, and orientation (mobile, tablet, desktop, etc.).
+
+
+Why Responsive Design is Important
+
+1 Mobile users are increasing rapidly
+
+2 Works on all screen sizes
+
+3 Better SEO (Google prefers responsive sites)
+
+4 Improved user experience
+
+5 Easier maintenance (single codebase)
+
+
+Media Queries are a CSS technique used to apply different styles for different devices
+or screen sizes such as mobile, tablet, laptop, and desktop.
+
+| Device  | Width         |
+| ------- | ------------- |
+| Mobile  | ≤ 576px       |
+| Tablet  | 577px – 768px |
+| Laptop  | 769px – 992px |
+| Desktop | ≥ 1024px      |
+
+
+
+Syntax of Media Query
+@media (condition) {
+  /* CSS rules */
+}
+
+
+@media (max-width: 768px) {
+  body {
+    background-color: lightgray;
+  }
+}
+
+
+@media (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+
+---------------------------------------------
+
+Bootstrap :
+
+margin & padding in bootstrap :
+my-0   --> 0 rem            py-0
+my-1               py-1
+my-2               py-2
+my-3               py-3
+my-4               py-4
+my-5               py-5
+my-6               py-6
