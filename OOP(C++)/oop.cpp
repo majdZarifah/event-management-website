@@ -13,7 +13,6 @@ private:
     static int totalSeatsBooked;
 
 public:
-    // Default Constructor
     Booking() {
         numberOfTickets = 0;
         ticketPrice = 0;
@@ -56,7 +55,6 @@ public:
         totalBookings++;
         totalSeatsBooked += numberOfTickets;
 
-        calculateTotal();
     }
 
     void calculateTotal() {
@@ -89,18 +87,23 @@ public:
     }
 };
 
-// Initialize static members
 int Booking::totalBookings = 0;
 int Booking::totalSeatsBooked = 0;
 
 int main() {
-    Booking b1, b2;
+    Booking b1, b2, b3;
 
     b1.inputDetails();
     b2.inputDetails();
+    b3.inputDetails();
+
+    b1.calculateTotal();
+    b2.calculateTotal();
+    b3.cal
 
     b1.displayBooking();
     b2.displayBooking();
+    b3.displayBooking();
 
     Booking::showStatistics();
 
